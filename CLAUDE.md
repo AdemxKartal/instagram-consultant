@@ -46,8 +46,17 @@ Hinweise zu den Daten:
   keine Insights.
 - Demografie liefert Meta erst ab 100 Followern bzw. 100 Interaktionen und nur die Top 45.
 
+- Die API liefert mehr Beiträge, als das Profil als Beitragsanzahl meldet: Reels mit
+  `is_shared_to_feed = false` erscheinen nicht im Raster, zählen aber in der Analyse mit.
+  Beim Vergleich nach Typ im Blick behalten, ob ein Reel im Feed geteilt wurde.
+- `crossposted_views` und `facebook_views` liefert Meta für dieses Konto nicht.
+- `comments.json` enthält Namen und Texte fremder Personen. Das Repo ist öffentlich,
+  deshalb ist die Datei per `.gitignore` vom Commit ausgeschlossen. Kommentare in
+  Antworten nur zusammenfassen, keine fremden Nutzernamen in committete Dateien schreiben.
+
 Authentifizierung: Kein Token im Code. Der Netzwerk-Proxy hängt ihn an Anfragen an
-`graph.instagram.com` an. Alternativ liest das Skript `IG_ACCESS_TOKEN` aus der Umgebung.
+`graph.facebook.com` an (Systemnutzer-Token; das Konto wird über die zugewiesene Seite
+gefunden). Alternativ liest das Skript `IG_ACCESS_TOKEN` aus der Umgebung.
 Den Token nie ausgeben, loggen, speichern oder committen.
 
 ## Bewertungsregeln

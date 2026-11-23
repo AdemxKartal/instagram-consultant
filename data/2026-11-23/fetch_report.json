@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-11-23T14:06:53+00:00",
+  "api": "https://graph.facebook.com/v26.0",
+  "auth": "proxy",
+  "warnings": [
+    "183 Beiträge geladen, Profil meldet 92."
+  ],
+  "dropped_fields": [],
+  "post_insight_errors": [
+    {
+      "id": "18155938195547121",
+      "kind": "REEL",
+      "timestamp": "2026-11-21T10:58:46+0000",
+      "errors": {
+        "crossposted_views": "Fatal",
+        "facebook_views": "Fatal"
+      }
+    },
+    {
+      "id": "18431945773149377",
+      "kind": "REEL",
+      "timestamp": "2026-11-10T05:53:51+0000",
+      "errors": {
+        "crossposted_views": "Fatal",
+        "facebook_views": "Fatal"
+      }
+    },
+    {
+      "id": "17954344842298677",
+      "kind": "REEL",
+      "timestamp": "2026-11-08T17:34:28+0000",
+      "errors": {
+        "crossposted_views": "Fatal",
+        "facebook_views": "Fatal"
+      }
+    },
+    {
+      "id": "17847695498424946",
+      "kind": "VIDEO",
+      "timestamp": "2020-11-25T09:09:26+0000",
+      "errors": {
+        "_all": "Invalid parameter"
+      }
+    },
+    {
+      "id": "17887955332631389",
+      "kind": "VIDEO",
+      "timestamp": "2020-08-21T13:33:20+0000",
+      "errors": {
+        "_all": "Invalid parameter"
+      }
+    }
+  ],
+  "metrics_unavailable_by_kind": {
+    "REEL": {
+      "crossposted_views": "Fatal",
+      "facebook_views": "Fatal"
+    }
+  },
+  "comment_errors": [],
+  "account_insight_errors": [],
+  "counts": {
+    "posts": 183,
+    "posts_by_kind": {
+      "CAROUSEL": 4,
+      "IMAGE": 15,
+      "REEL": 161,
+      "VIDEO": 3
+    },
+    "posts_without_any_insights": 2,
+    "posts_with_partial_insights": 3,
+    "comments": 107,
+    "comment_posts": 30
+  }
+}

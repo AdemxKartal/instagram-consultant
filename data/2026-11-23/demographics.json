@@ -1,0 +1,1350 @@
+{
+  "follower_demographics": {
+    "age": {
+      "id": "17841412256253074/insights/follower_demographics/lifetime",
+      "name": "follower_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zu Followern",
+      "description": "Demografische Eigenschaften von Followern, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "age"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "13-17"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "18-24"
+                ],
+                "value": 157
+              },
+              {
+                "dimension_values": [
+                  "25-34"
+                ],
+                "value": 611
+              },
+              {
+                "dimension_values": [
+                  "35-44"
+                ],
+                "value": 173
+              },
+              {
+                "dimension_values": [
+                  "45-54"
+                ],
+                "value": 64
+              },
+              {
+                "dimension_values": [
+                  "55-64"
+                ],
+                "value": 39
+              },
+              {
+                "dimension_values": [
+                  "65+"
+                ],
+                "value": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "gender": {
+      "id": "17841412256253074/insights/follower_demographics/lifetime",
+      "name": "follower_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zu Followern",
+      "description": "Demografische Eigenschaften von Followern, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "gender"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "F"
+                ],
+                "value": 135
+              },
+              {
+                "dimension_values": [
+                  "M"
+                ],
+                "value": 595
+              },
+              {
+                "dimension_values": [
+                  "U"
+                ],
+                "value": 338
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "country": {
+      "id": "17841412256253074/insights/follower_demographics/lifetime",
+      "name": "follower_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zu Followern",
+      "description": "Demografische Eigenschaften von Followern, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "country"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "RS"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "DE"
+                ],
+                "value": 852
+              },
+              {
+                "dimension_values": [
+                  "RU"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "TW"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "BJ"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "UA"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "FR"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "BR"
+                ],
+                "value": 8
+              },
+              {
+                "dimension_values": [
+                  "UG"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "MA"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "DZ"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "SK"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "ME"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "ID"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "GB"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "MK"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "CA"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "US"
+                ],
+                "value": 11
+              },
+              {
+                "dimension_values": [
+                  "EG"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "AE"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "IN"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "CH"
+                ],
+                "value": 12
+              },
+              {
+                "dimension_values": [
+                  "CI"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "GM"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "KR"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "IQ"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "IT"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "MX"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "ES"
+                ],
+                "value": 10
+              },
+              {
+                "dimension_values": [
+                  "VE"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "KZ"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "AR"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "XK"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "AT"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "TH"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "PE"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "LB"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "VN"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "AZ"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "NG"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "PK"
+                ],
+                "value": 10
+              },
+              {
+                "dimension_values": [
+                  "PL"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "RO"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "TR"
+                ],
+                "value": 16
+              },
+              {
+                "dimension_values": [
+                  "BA"
+                ],
+                "value": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "city": {
+      "id": "17841412256253074/insights/follower_demographics/lifetime",
+      "name": "follower_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zu Followern",
+      "description": "Demografische Eigenschaften von Followern, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "city"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "Schönaich, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Algiers, Algiers Province"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Casablanca, Grand Casablanca"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Uhingen, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Heidelberg, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Calw, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Herrenberg, Baden-Württemberg"
+                ],
+                "value": 16
+              },
+              {
+                "dimension_values": [
+                  "Balingen, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Munich, Bayern"
+                ],
+                "value": 14
+              },
+              {
+                "dimension_values": [
+                  "Freiburg im Breisgau, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Berlin, Berlin"
+                ],
+                "value": 11
+              },
+              {
+                "dimension_values": [
+                  "Waldenbuch, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Heilbronn, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Hamburg, Hamburg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Esslingen, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Ebersbach an der Fils, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Ostfildern, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Villingen-Schwenningen, Baden-Württemberg"
+                ],
+                "value": 13
+              },
+              {
+                "dimension_values": [
+                  "Nufringen, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Ulm, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Serekunda, Banjul"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Ehningen, Baden-Württemberg"
+                ],
+                "value": 10
+              },
+              {
+                "dimension_values": [
+                  "Kaufbeuren, Bayern"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Böblingen, Baden-Württemberg"
+                ],
+                "value": 92
+              },
+              {
+                "dimension_values": [
+                  "Wien, Vienna"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Holzgerlingen, Baden-Württemberg"
+                ],
+                "value": 19
+              },
+              {
+                "dimension_values": [
+                  "Sindelfingen, Baden-Württemberg"
+                ],
+                "value": 197
+              },
+              {
+                "dimension_values": [
+                  "Ankara, Ankara Province"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Giengen, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Winnenden, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Baden-Baden, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Filderstadt, Baden-Württemberg"
+                ],
+                "value": 10
+              },
+              {
+                "dimension_values": [
+                  "Leinfelden-Echterdingen, Baden-Württemberg"
+                ],
+                "value": 14
+              },
+              {
+                "dimension_values": [
+                  "Nagold, Baden-Württemberg"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "Magstadt, Baden-Württemberg"
+                ],
+                "value": 16
+              },
+              {
+                "dimension_values": [
+                  "Sialkot, Punjab"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "Leonberg, Baden-Württemberg"
+                ],
+                "value": 13
+              },
+              {
+                "dimension_values": [
+                  "Ludwigsburg, Baden-Württemberg"
+                ],
+                "value": 13
+              },
+              {
+                "dimension_values": [
+                  "Weil im Schönbuch, Baden-Württemberg"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "Mannheim, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Weil der Stadt, Baden-Württemberg"
+                ],
+                "value": 8
+              },
+              {
+                "dimension_values": [
+                  "Stuttgart, Baden-Württemberg"
+                ],
+                "value": 73
+              },
+              {
+                "dimension_values": [
+                  "Reutlingen, Baden-Württemberg"
+                ],
+                "value": 8
+              },
+              {
+                "dimension_values": [
+                  "Renningen, Baden-Württemberg"
+                ],
+                "value": 13
+              },
+              {
+                "dimension_values": [
+                  "Tübingen, Baden-Württemberg"
+                ],
+                "value": 7
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "engaged_audience_demographics": {
+    "age": {
+      "id": "17841412256253074/insights/engaged_audience_demographics/lifetime",
+      "name": "engaged_audience_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zur Zielgruppe, die interagiert hat",
+      "description": "Demografische Eigenschaften der Zielgruppe, die interagiert hat, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "age"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "13-17"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "18-24"
+                ],
+                "value": 129
+              },
+              {
+                "dimension_values": [
+                  "25-34"
+                ],
+                "value": 272
+              },
+              {
+                "dimension_values": [
+                  "35-44"
+                ],
+                "value": 64
+              },
+              {
+                "dimension_values": [
+                  "45-54"
+                ],
+                "value": 19
+              },
+              {
+                "dimension_values": [
+                  "55-64"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "65+"
+                ],
+                "value": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "gender": {
+      "id": "17841412256253074/insights/engaged_audience_demographics/lifetime",
+      "name": "engaged_audience_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zur Zielgruppe, die interagiert hat",
+      "description": "Demografische Eigenschaften der Zielgruppe, die interagiert hat, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "gender"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "F"
+                ],
+                "value": 49
+              },
+              {
+                "dimension_values": [
+                  "M"
+                ],
+                "value": 304
+              },
+              {
+                "dimension_values": [
+                  "U"
+                ],
+                "value": 148
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "country": {
+      "id": "17841412256253074/insights/engaged_audience_demographics/lifetime",
+      "name": "engaged_audience_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zur Zielgruppe, die interagiert hat",
+      "description": "Demografische Eigenschaften der Zielgruppe, die interagiert hat, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "country"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "RS"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "DE"
+                ],
+                "value": 453
+              },
+              {
+                "dimension_values": [
+                  "FI"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "HK"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "BE"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "RU"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "BG"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "HR"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "FR"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "BR"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "MA"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "DZ"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "SK"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "ME"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "MG"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "ID"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "GB"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "KG"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "US"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "MN"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "AE"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "IN"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "UZ"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "CH"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "KR"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "CL"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "IR"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "GR"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "MX"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "IT"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "AM"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "ES"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "KZ"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "AT"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "CY"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "CZ"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "VN"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "AZ"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "TN"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "PK"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "PL"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "RO"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "NL"
+                ],
+                "value": 0
+              },
+              {
+                "dimension_values": [
+                  "TR"
+                ],
+                "value": 10
+              },
+              {
+                "dimension_values": [
+                  "BA"
+                ],
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "city": {
+      "id": "17841412256253074/insights/engaged_audience_demographics/lifetime",
+      "name": "engaged_audience_demographics",
+      "period": "lifetime",
+      "title": "Demografische Angaben zur Zielgruppe, die interagiert hat",
+      "description": "Demografische Eigenschaften der Zielgruppe, die interagiert hat, einschließlich Ländern, Städten und Geschlechterverteilung.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "city"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "London, England"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Schönaich, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Waiblingen, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Uhingen, Baden-Württemberg"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "Aidlingen, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Herrenberg, Baden-Württemberg"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "Munich, Bayern"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Berlin, Berlin"
+                ],
+                "value": 7
+              },
+              {
+                "dimension_values": [
+                  "Langen, Hessen"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Heilbronn, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Hamburg, Hamburg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Heiningen, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Düsseldorf, Nordrhein-Westfalen"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Esslingen, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Ebersbach an der Fils, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Göppingen, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Nebringen, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Schramberg, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Villingen-Schwenningen, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Yasuj, Kohgiluyeh and Boyer-Ahmad Province"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Ehningen, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Wernau, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Wangen im Allgäu, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Gäufelden, Baden-Württemberg"
+                ],
+                "value": 4
+              },
+              {
+                "dimension_values": [
+                  "Böblingen, Baden-Württemberg"
+                ],
+                "value": 41
+              },
+              {
+                "dimension_values": [
+                  "Holzgerlingen, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Heimsheim, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Sindelfingen, Baden-Württemberg"
+                ],
+                "value": 121
+              },
+              {
+                "dimension_values": [
+                  "Giengen, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Baden-Baden, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Filderstadt, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Leinfelden-Echterdingen, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Nagold, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Magstadt, Baden-Württemberg"
+                ],
+                "value": 12
+              },
+              {
+                "dimension_values": [
+                  "Leonberg, Baden-Württemberg"
+                ],
+                "value": 8
+              },
+              {
+                "dimension_values": [
+                  "Friolzheim, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Eislingen, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Döffingen, Baden-Württemberg"
+                ],
+                "value": 2
+              },
+              {
+                "dimension_values": [
+                  "Ludwigsburg, Baden-Württemberg"
+                ],
+                "value": 5
+              },
+              {
+                "dimension_values": [
+                  "Weil im Schönbuch, Baden-Württemberg"
+                ],
+                "value": 3
+              },
+              {
+                "dimension_values": [
+                  "Weil der Stadt, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Stuttgart, Baden-Württemberg"
+                ],
+                "value": 32
+              },
+              {
+                "dimension_values": [
+                  "Reutlingen, Baden-Württemberg"
+                ],
+                "value": 6
+              },
+              {
+                "dimension_values": [
+                  "Renningen, Baden-Württemberg"
+                ],
+                "value": 9
+              },
+              {
+                "dimension_values": [
+                  "Tübingen, Baden-Württemberg"
+                ],
+                "value": 2
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

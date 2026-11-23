@@ -361,8 +361,13 @@ def main():
         MEDIA_FIELDS, ["id", "media_type", "timestamp", "permalink"])
     report["dropped_fields"] += [{"object": "media", **d} for d in dropped]
     posts.sort(key=lambda p: p.get("timestamp", ""), reverse=True)
-    if profile.get("media_count") is not None and len(posts) != profile["media_count"]:
-        report["warnings"].append(f"{len(posts)} Beiträge geladen, Profil meldet {profile['media_count']}.")
+    # media_count des Profils zählt offenbar nur Beiträge im Raster; Reels, die nicht im
+    # Feed geteilt wurden (is_shared_to_feed = false), liefert die API zusätzlich.
+    off_grid = sum(p.get("is_shared_to_feed") is False for p in posts)
+    if profile.get("media_count") is not None and len(posts) - off_grid != profile["media_count"]:
+        report["warnings"].append(
+            f"{len(posts)} Beiträge geladen, davon {off_grid} Reels außerhalb des Rasters "
+            f"(bleiben {len(posts) - off_grid}); Profil meldet {profile['media_count']}.")
 
     log(f"Insights für {len(posts)} Beiträge abrufen …")
     insights = PostInsights()

@@ -1,0 +1,618 @@
+{
+  "since": "2026-10-24T14:06:53+00:00",
+  "until": "2026-11-23T14:06:53+00:00",
+  "totals": [
+    {
+      "id": "17841412256253074/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "title": "Erreichte Konten",
+      "description": "So viele individuelle Konten haben deinen Content, auch in Werbeanzeigen, mindestens einmal gesehen. Dazu zählen Beiträge, Stories, Reels, Videos und Live-Videos. Reichweite unterscheidet sich von Impressionen, denn Letztere können auch mehrfache Aufrufe deines Contents durch dieselben Konten umfassen. Diese Kennzahl ist ein Schätzwert und noch in Entwicklung.",
+      "total_value": {
+        "value": 8861
+      }
+    },
+    {
+      "id": "17841412256253074/insights/views/day",
+      "name": "views",
+      "period": "day",
+      "title": "Aufrufe",
+      "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
+      "total_value": {
+        "value": 56274
+      }
+    },
+    {
+      "id": "17841412256253074/insights/accounts_engaged/day",
+      "name": "accounts_engaged",
+      "period": "day",
+      "title": "Konten, die interagiert haben",
+      "description": "So viele Konten haben mit deinen Inhalten, auch in Werbeanzeigen, interagiert. Inhalte sind Beiträge, Stories, Reels, Videos und Live-Videos. Als Interaktionen zählen beispielsweise „Gefällt mir“-Angaben, Speichern, Kommentieren, Teilen und Antworten. Bei dieser Kennzahl handelt es sich um einen Schätzwert, der sich noch in Entwicklung befindet.",
+      "total_value": {
+        "value": 479
+      }
+    },
+    {
+      "id": "17841412256253074/insights/total_interactions/day",
+      "name": "total_interactions",
+      "period": "day",
+      "title": "Content-Interaktionen",
+      "description": "So oft wurde insgesamt mit Beiträgen, Stories, Reels, Videos und Live-Videos interagiert, einschließlich aller Interaktionen mit beworbenen Inhalten.",
+      "total_value": {
+        "value": 2008
+      }
+    },
+    {
+      "id": "17841412256253074/insights/likes/day",
+      "name": "likes",
+      "period": "day",
+      "title": "„Gefällt mir“-Angaben",
+      "description": "So viele „Gefällt mir“-Angaben haben deinen Beiträge, Reels und Videos erhalten.",
+      "total_value": {
+        "value": 1795
+      }
+    },
+    {
+      "id": "17841412256253074/insights/comments/day",
+      "name": "comments",
+      "period": "day",
+      "title": "Kommentare",
+      "description": "So viele Kommentare haben deinen Beiträge, Reels, Videos und Live-Videos erhalten.",
+      "total_value": {
+        "value": 30
+      }
+    },
+    {
+      "id": "17841412256253074/insights/shares/day",
+      "name": "shares",
+      "period": "day",
+      "title": "Geteilte Inhalte",
+      "description": "So oft wurden deine Beiträge, Stories, Reels, Videos und Live-Videos geteilt.",
+      "total_value": {
+        "value": 61
+      }
+    },
+    {
+      "id": "17841412256253074/insights/saves/day",
+      "name": "saves",
+      "period": "day",
+      "title": "Gespeicherte Inhalte",
+      "description": "So oft wurden deine Beiträge, Reels und Videos gespeichert.",
+      "total_value": {
+        "value": 8
+      }
+    },
+    {
+      "id": "17841412256253074/insights/replies/day",
+      "name": "replies",
+      "period": "day",
+      "title": "Antworten",
+      "description": "So viele Antworten (Text und Schnellreaktionen) hast du auf deine Story erhalten.",
+      "total_value": {
+        "value": 37
+      }
+    },
+    {
+      "id": "17841412256253074/insights/reposts/day",
+      "name": "reposts",
+      "period": "day",
+      "title": "Reposts",
+      "description": "So oft wurde dein Content insgesamt gerepostet. Ein Repost liegt dann vor, wenn ein anderes Konto deinen Content in seinem eigenen Profil teilt.",
+      "total_value": {
+        "value": 16
+      }
+    },
+    {
+      "id": "17841412256253074/insights/follows_and_unfollows/day",
+      "name": "follows_and_unfollows",
+      "period": "day",
+      "title": "Neue und verlorene Follower",
+      "description": "So viele Konten sind dir im ausgewählten Zeitraum gefolgt, dir nicht mehr gefolgt oder haben Instagram verlassen."
+    },
+    {
+      "id": "17841412256253074/insights/profile_links_taps/day",
+      "name": "profile_links_taps",
+      "period": "day",
+      "title": "Klicks auf Profil-Link",
+      "description": "So oft wurde auf deine Unternehmensadresse, den Anrufen-Button, den E-Mail-Button und den SMS-Button getippt.",
+      "total_value": {
+        "value": 0
+      }
+    }
+  ],
+  "breakdowns": [
+    {
+      "breakdown": "media_product_type",
+      "id": "17841412256253074/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "title": "Erreichte Konten",
+      "description": "So viele individuelle Konten haben deinen Content, auch in Werbeanzeigen, mindestens einmal gesehen. Dazu zählen Beiträge, Stories, Reels, Videos und Live-Videos. Reichweite unterscheidet sich von Impressionen, denn Letztere können auch mehrfache Aufrufe deines Contents durch dieselben Konten umfassen. Diese Kennzahl ist ein Schätzwert und noch in Entwicklung.",
+      "total_value": {
+        "value": 8861,
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "media_product_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "IGTV"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "CAROUSEL_CONTAINER"
+                ],
+                "value": 27
+              },
+              {
+                "dimension_values": [
+                  "STORY"
+                ],
+                "value": 1533
+              },
+              {
+                "dimension_values": [
+                  "POST"
+                ],
+                "value": 5479
+              },
+              {
+                "dimension_values": [
+                  "REEL"
+                ],
+                "value": 4469
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "breakdown": "follow_type",
+      "id": "17841412256253074/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "title": "Erreichte Konten",
+      "description": "So viele individuelle Konten haben deinen Content, auch in Werbeanzeigen, mindestens einmal gesehen. Dazu zählen Beiträge, Stories, Reels, Videos und Live-Videos. Reichweite unterscheidet sich von Impressionen, denn Letztere können auch mehrfache Aufrufe deines Contents durch dieselben Konten umfassen. Diese Kennzahl ist ein Schätzwert und noch in Entwicklung.",
+      "total_value": {
+        "value": 8861,
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "follow_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "FOLLOWER"
+                ],
+                "value": 757
+              },
+              {
+                "dimension_values": [
+                  "NON_FOLLOWER"
+                ],
+                "value": 8108
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "breakdown": "media_product_type",
+      "id": "17841412256253074/insights/views/day",
+      "name": "views",
+      "period": "day",
+      "title": "Aufrufe",
+      "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
+      "total_value": {
+        "value": 56274,
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "media_product_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "DEFAULT_DO_NOT_USE"
+                ],
+                "value": 1
+              },
+              {
+                "dimension_values": [
+                  "REEL"
+                ],
+                "value": 18251
+              },
+              {
+                "dimension_values": [
+                  "POST"
+                ],
+                "value": 17305
+              },
+              {
+                "dimension_values": [
+                  "STORY"
+                ],
+                "value": 20643
+              },
+              {
+                "dimension_values": [
+                  "CAROUSEL_CONTAINER"
+                ],
+                "value": 74
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "breakdown": "follow_type",
+      "id": "17841412256253074/insights/views/day",
+      "name": "views",
+      "period": "day",
+      "title": "Aufrufe",
+      "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
+      "total_value": {
+        "value": 56274,
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "follow_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "NON_FOLLOWER"
+                ],
+                "value": 29798
+              },
+              {
+                "dimension_values": [
+                  "FOLLOWER"
+                ],
+                "value": 26476
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "breakdown": "media_product_type",
+      "id": "17841412256253074/insights/total_interactions/day",
+      "name": "total_interactions",
+      "period": "day",
+      "title": "Content-Interaktionen",
+      "description": "So oft wurde insgesamt mit Beiträgen, Stories, Reels, Videos und Live-Videos interagiert, einschließlich aller Interaktionen mit beworbenen Inhalten.",
+      "total_value": {
+        "value": 2008,
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "media_product_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "POST"
+                ],
+                "value": 583
+              },
+              {
+                "dimension_values": [
+                  "REEL"
+                ],
+                "value": 631
+              },
+              {
+                "dimension_values": [
+                  "STORY"
+                ],
+                "value": 794
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "breakdown": "follow_type",
+      "id": "17841412256253074/insights/follows_and_unfollows/day",
+      "name": "follows_and_unfollows",
+      "period": "day",
+      "title": "Neue und verlorene Follower",
+      "description": "So viele Konten sind dir im ausgewählten Zeitraum gefolgt, dir nicht mehr gefolgt oder haben Instagram verlassen.",
+      "total_value": {
+        "breakdowns": [
+          {
+            "dimension_keys": [
+              "follow_type"
+            ],
+            "results": [
+              {
+                "dimension_values": [
+                  "FOLLOWER"
+                ],
+                "value": 28
+              },
+              {
+                "dimension_values": [
+                  "NON_FOLLOWER"
+                ],
+                "value": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "daily": [
+    {
+      "id": "17841412256253074/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "values": [
+        {
+          "value": 623,
+          "end_time": "2026-10-25T07:00:00+0000"
+        },
+        {
+          "value": 3444,
+          "end_time": "2026-10-26T07:00:00+0000"
+        },
+        {
+          "value": 2531,
+          "end_time": "2026-10-27T07:00:00+0000"
+        },
+        {
+          "value": 337,
+          "end_time": "2026-10-28T07:00:00+0000"
+        },
+        {
+          "value": 508,
+          "end_time": "2026-10-29T07:00:00+0000"
+        },
+        {
+          "value": 171,
+          "end_time": "2026-10-30T07:00:00+0000"
+        },
+        {
+          "value": 77,
+          "end_time": "2026-10-31T07:00:00+0000"
+        },
+        {
+          "value": 583,
+          "end_time": "2026-11-01T07:00:00+0000"
+        },
+        {
+          "value": 419,
+          "end_time": "2026-11-02T08:00:00+0000"
+        },
+        {
+          "value": 180,
+          "end_time": "2026-11-03T08:00:00+0000"
+        },
+        {
+          "value": 803,
+          "end_time": "2026-11-04T08:00:00+0000"
+        },
+        {
+          "value": 573,
+          "end_time": "2026-11-05T08:00:00+0000"
+        },
+        {
+          "value": 53,
+          "end_time": "2026-11-06T08:00:00+0000"
+        },
+        {
+          "value": 453,
+          "end_time": "2026-11-07T08:00:00+0000"
+        },
+        {
+          "value": 1865,
+          "end_time": "2026-11-08T08:00:00+0000"
+        },
+        {
+          "value": 608,
+          "end_time": "2026-11-09T08:00:00+0000"
+        },
+        {
+          "value": 1571,
+          "end_time": "2026-11-10T08:00:00+0000"
+        },
+        {
+          "value": 247,
+          "end_time": "2026-11-11T08:00:00+0000"
+        },
+        {
+          "value": 360,
+          "end_time": "2026-11-12T08:00:00+0000"
+        },
+        {
+          "value": 163,
+          "end_time": "2026-11-13T08:00:00+0000"
+        },
+        {
+          "value": 646,
+          "end_time": "2026-11-14T08:00:00+0000"
+        },
+        {
+          "value": 53,
+          "end_time": "2026-11-15T08:00:00+0000"
+        },
+        {
+          "value": 23,
+          "end_time": "2026-11-16T08:00:00+0000"
+        },
+        {
+          "value": 18,
+          "end_time": "2026-11-17T08:00:00+0000"
+        },
+        {
+          "value": 26,
+          "end_time": "2026-11-18T08:00:00+0000"
+        },
+        {
+          "value": 513,
+          "end_time": "2026-11-19T08:00:00+0000"
+        },
+        {
+          "value": 61,
+          "end_time": "2026-11-20T08:00:00+0000"
+        },
+        {
+          "value": 850,
+          "end_time": "2026-11-21T08:00:00+0000"
+        },
+        {
+          "value": 139,
+          "end_time": "2026-11-22T08:00:00+0000"
+        },
+        {
+          "value": 14,
+          "end_time": "2026-11-23T08:00:00+0000"
+        }
+      ],
+      "title": "Reichweite",
+      "description": "Gesamtanzahl der individuellen Aufrufe der Medienobjekte des Business-Kontos"
+    },
+    {
+      "id": "17841412256253074/insights/follower_count/day",
+      "name": "follower_count",
+      "period": "day",
+      "values": [
+        {
+          "value": 0,
+          "end_time": "2026-10-25T07:00:00+0000"
+        },
+        {
+          "value": 4,
+          "end_time": "2026-10-26T07:00:00+0000"
+        },
+        {
+          "value": 4,
+          "end_time": "2026-10-27T07:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-10-28T07:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-10-29T07:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-10-30T07:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-10-31T07:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-01T07:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-02T08:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-11-03T08:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-11-04T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-05T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-06T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-07T08:00:00+0000"
+        },
+        {
+          "value": 2,
+          "end_time": "2026-11-08T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-09T08:00:00+0000"
+        },
+        {
+          "value": 2,
+          "end_time": "2026-11-10T08:00:00+0000"
+        },
+        {
+          "value": 2,
+          "end_time": "2026-11-11T08:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-11-12T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-13T08:00:00+0000"
+        },
+        {
+          "value": 5,
+          "end_time": "2026-11-14T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-15T08:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-11-16T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-17T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-18T08:00:00+0000"
+        },
+        {
+          "value": 1,
+          "end_time": "2026-11-19T08:00:00+0000"
+        },
+        {
+          "value": 2,
+          "end_time": "2026-11-20T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-21T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-22T08:00:00+0000"
+        },
+        {
+          "value": 0,
+          "end_time": "2026-11-23T08:00:00+0000"
+        }
+      ],
+      "title": "Anzahl der Follower",
+      "description": "Gesamtanzahl der individuellen Konten, die diesem Profil folgen"
+    }
+  ]
+}
