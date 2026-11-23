@@ -11,7 +11,7 @@
     "timestamp": "2026-11-21T10:58:46+0000",
     "kind": "REEL",
     "insights": {
-      "views": 1988,
+      "views": 1990,
       "reach": 947,
       "saved": 0,
       "shares": 1,
@@ -21,7 +21,7 @@
       "reposts": 1,
       "ig_reels_avg_watch_time": 5545,
       "ig_reels_video_view_total_time": 5634076,
-      "reels_skip_rate": 63.1
+      "reels_skip_rate": 63
     },
     "insights_errors": {
       "crossposted_views": "Fatal",
@@ -40,7 +40,7 @@
     "kind": "IMAGE",
     "insights": {
       "views": 1381,
-      "reach": 576,
+      "reach": 577,
       "saved": 0,
       "shares": 0,
       "total_interactions": 130,

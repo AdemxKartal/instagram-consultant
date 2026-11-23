@@ -1,6 +1,6 @@
 {
-  "since": "2026-10-24T14:06:53+00:00",
-  "until": "2026-11-23T14:06:53+00:00",
+  "since": "2026-10-24T14:16:10+00:00",
+  "until": "2026-11-23T14:16:10+00:00",
   "totals": [
     {
       "id": "17841412256253074/insights/reach/day",
@@ -19,7 +19,7 @@
       "title": "Aufrufe",
       "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
       "total_value": {
-        "value": 56274
+        "value": 56275
       }
     },
     {
@@ -188,15 +188,15 @@
             "results": [
               {
                 "dimension_values": [
-                  "FOLLOWER"
-                ],
-                "value": 757
-              },
-              {
-                "dimension_values": [
                   "NON_FOLLOWER"
                 ],
                 "value": 8108
+              },
+              {
+                "dimension_values": [
+                  "FOLLOWER"
+                ],
+                "value": 757
               }
             ]
           }
@@ -211,7 +211,7 @@
       "title": "Aufrufe",
       "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
       "total_value": {
-        "value": 56274,
+        "value": 56275,
         "breakdowns": [
           {
             "dimension_keys": [
@@ -226,6 +226,12 @@
               },
               {
                 "dimension_values": [
+                  "CAROUSEL_CONTAINER"
+                ],
+                "value": 74
+              },
+              {
+                "dimension_values": [
                   "REEL"
                 ],
                 "value": 18251
@@ -234,19 +240,13 @@
                 "dimension_values": [
                   "POST"
                 ],
-                "value": 17305
+                "value": 17306
               },
               {
                 "dimension_values": [
                   "STORY"
                 ],
                 "value": 20643
-              },
-              {
-                "dimension_values": [
-                  "CAROUSEL_CONTAINER"
-                ],
-                "value": 74
               }
             ]
           }
@@ -261,7 +261,7 @@
       "title": "Aufrufe",
       "description": "So oft wurde dein Inhalt abgespielt oder angezeigt. Inhalte umfassen Reels, Beiträge und Stories.",
       "total_value": {
-        "value": 56274,
+        "value": 56275,
         "breakdowns": [
           {
             "dimension_keys": [
@@ -278,7 +278,7 @@
                 "dimension_values": [
                   "FOLLOWER"
                 ],
-                "value": 26476
+                "value": 26477
               }
             ]
           }
@@ -478,7 +478,7 @@
           "end_time": "2026-11-22T08:00:00+0000"
         },
         {
-          "value": 14,
+          "value": 15,
           "end_time": "2026-11-23T08:00:00+0000"
         }
       ],

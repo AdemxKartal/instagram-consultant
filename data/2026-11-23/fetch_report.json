@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-23T14:06:53+00:00",
+  "fetched_at": "2026-11-23T14:16:10+00:00",
   "api": "https://graph.facebook.com/v26.0",
   "auth": "proxy",
   "warnings": [
-    "183 Beiträge geladen, Profil meldet 92."
+    "183 Beiträge geladen, davon 93 Reels außerhalb des Rasters (bleiben 90); Profil meldet 92."
   ],
   "dropped_fields": [],
   "post_insight_errors": [
