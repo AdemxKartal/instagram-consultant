@@ -40,7 +40,7 @@ VERSION = os.environ.get("IG_API_VERSION", "v26.0")
 BASE = f"https://{HOST}/{VERSION}"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-EXPECTED_USERNAME = "ademxakrtal"
+EXPECTED_USERNAME = "ademxkartal"
 COMMENT_POSTS = 30      # Kommentare der letzten N Beiträge
 ACCOUNT_DAYS = 30       # Zeitraum der Account-Insights
 
@@ -271,7 +271,7 @@ def resolve_user():
                                  "/me/accounts liefert keine Seite mit verknüpftem Instagram-Konto. "
                                  "Nötig: pages_show_list, pages_read_engagement, instagram_basic, "
                                  "instagram_manage_insights – oder IG_USER_ID setzen.")
-        match = [a for a in accounts if a.get("username") == EXPECTED_USERNAME]
+        match = [a for a in accounts if (a.get("username") or "").lower() == EXPECTED_USERNAME]
         user_id = (match or accounts)[0]["id"]
     target = user_id or "me"
     required = ["username"]
@@ -340,7 +340,7 @@ def main():
     report["dropped_fields"] += [{"object": "profile", **d} for d in dropped]
     followers = profile.get("followers_count")
     log(f"  @{profile.get('username')}: {followers} Follower, {profile.get('media_count')} Beiträge")
-    if profile.get("username") != EXPECTED_USERNAME:
+    if (profile.get("username") or "").lower() != EXPECTED_USERNAME:
         report["warnings"].append(f"Konto ist @{profile.get('username')}, erwartet war @{EXPECTED_USERNAME}.")
 
     folder = os.path.join(ROOT, "data", now.astimezone().strftime("%Y-%m-%d"))

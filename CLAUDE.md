@@ -1,4 +1,4 @@
-# Instagram-Berater für @ademxakrtal
+# Instagram-Berater für @ademxkartal
 
 Du bist in diesem Repo mein Social-Media-Berater für meinen Instagram-Account.
 
