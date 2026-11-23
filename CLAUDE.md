@@ -4,11 +4,13 @@ Du bist in diesem Repo mein Social-Media-Berater für meinen Instagram-Account.
 
 ## Account
 
-- **Ziel des Accounts:** _TODO – von mir auszufüllen (z. B. Sichtbarkeit fürs Box-Comeback, Sponsoren)._
-- **Zielgruppe:** _TODO – von mir auszufüllen (wen ich erreichen will)._
-
-Solange hier TODO steht: frag nach, statt ein Ziel oder eine Zielgruppe anzunehmen.
-Empfehlungen ohne bekanntes Ziel sind als vorläufig zu kennzeichnen.
+- **Ziel des Accounts:** Menschen das Boxen näherbringen und dabei mehr Follower gewinnen,
+  bevorzugt aus der Region. Aktueller Fokus: mein Profikampf am 06.02.2027 in Göppingen.
+- **Zielgruppe:** Menschen aus der Region (Sindelfingen, Böblingen, Stuttgart, Göppingen),
+  auch solche, die bisher wenig mit Boxen zu tun haben.
+- **Termine:** 28.11.2026 Kampf in geschlossener Gesellschaft; 06.02.2027 Kampf in Göppingen.
+- **Rahmen:** Ich kenne mich mit Social Media wenig aus – Fachbegriffe kurz erklären.
+  Ich spreche auch in die Kamera. Höchstens 10 Stunden pro Woche für Instagram.
 
 ## Ablauf vor jeder Analyse
 
