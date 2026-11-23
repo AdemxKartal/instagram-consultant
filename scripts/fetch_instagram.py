@@ -11,9 +11,10 @@ Authentifizierung
       nie gespeichert (auch nicht in URLs, Logs oder Fehlermeldungen).
 
 Optionale Umgebungsvariablen
-  IG_API_HOST      Standard: graph.instagram.com (Instagram-Login).
-                   Mit graph.facebook.com (Facebook-Login) wird das
-                   Instagram-Konto über /me/accounts gesucht.
+  IG_API_HOST      Standard: graph.facebook.com (Facebook-Login-/Systemnutzer-
+                   Token, "EAA…"). Das Instagram-Konto wird über die Seiten des
+                   Tokens gesucht. Für einen Instagram-Login-Token ("IGAA…")
+                   graph.instagram.com setzen.
   IG_API_VERSION   Standard: v26.0
   IG_USER_ID       Instagram-Konto-ID, falls sie nicht automatisch gefunden wird.
 
@@ -35,7 +36,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-HOST = os.environ.get("IG_API_HOST", "graph.instagram.com")
+HOST = os.environ.get("IG_API_HOST", "graph.facebook.com")
 VERSION = os.environ.get("IG_API_VERSION", "v26.0")
 BASE = f"https://{HOST}/{VERSION}"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -264,13 +265,20 @@ def resolve_user():
     """Liefert (Pfad-ID des Instagram-Kontos, Profil, abgelehnte Felder)."""
     user_id = os.environ.get("IG_USER_ID")
     if not user_id and HOST == "graph.facebook.com":
-        pages = paginate("me/accounts", {"fields": "name,instagram_business_account{id,username}"})
-        accounts = [p["instagram_business_account"] for p in pages if p.get("instagram_business_account")]
+        # me/accounts: Seiten eines Nutzers; me/assigned_pages: Seiten eines Systemnutzers.
+        accounts = []
+        for edge in ("me/accounts", "me/assigned_pages"):
+            try:
+                pages = paginate(edge, {"fields": "name,instagram_business_account{id,username}"})
+            except ApiError:
+                continue
+            accounts += [p["instagram_business_account"] for p in pages if p.get("instagram_business_account")]
         if not accounts:
             raise ApiError(None, "Über graph.facebook.com ist kein Instagram-Konto erreichbar: "
-                                 "/me/accounts liefert keine Seite mit verknüpftem Instagram-Konto. "
-                                 "Nötig: pages_show_list, pages_read_engagement, instagram_basic, "
-                                 "instagram_manage_insights – oder IG_USER_ID setzen.")
+                                 "weder /me/accounts noch /me/assigned_pages liefern eine Seite mit "
+                                 "verknüpftem Instagram-Konto. Nötig: instagram_basic, "
+                                 "instagram_manage_insights und eine zugewiesene Seite – "
+                                 "oder IG_USER_ID setzen.")
         match = [a for a in accounts if (a.get("username") or "").lower() == EXPECTED_USERNAME]
         user_id = (match or accounts)[0]["id"]
     target = user_id or "me"
